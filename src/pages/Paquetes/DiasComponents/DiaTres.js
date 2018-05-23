@@ -8,18 +8,21 @@ class DiaTres extends Component {
         super(props);
 
         this.state = {
-            tours: ''
+            tours: []
         }
     }
     async componentDidMount() {
-        const res = await fetch('http://localhost:3001/v1/tours/');
-        const data = await res.json();
-        console.log(data)
-        this.setState({
-            tours: data[0]
-        })
-    }
-    render(props) {
+        this.fetchData()
+        }
+        fetchData(){
+            fetch('http://localhost:3001/v1/tours/')
+                .then(response => response.json())
+                .then(parsedJson => console.log(parsedJson.results))
+                .catch(error => console.log('parsing fails', error))
+
+        }
+
+    render(){
         return (
             <div>
                 <Header size='huge' style={{ fontSize:'60px', fontFamily:'Raleway'}}>{this.state.tours.title}
