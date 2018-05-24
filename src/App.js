@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {Segment, Container, Grid, Image, List, Header} from 'semantic-ui-react'
 
-import {BrowserRouter as Router, Link} from 'react-router-dom'
+import {BrowserRouter as Router, Link, Switch} from 'react-router-dom'
 import './App.css';
 import Route from 'react-router-dom/Route'
 import Navbar from './Components/Navbar'
@@ -17,6 +17,7 @@ import Paquetes from './pages/Paquetes/Paquetes'
 class App extends Component {
   render() {
     return (
+
         <Router>
             <div className="App">
 

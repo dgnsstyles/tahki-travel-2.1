@@ -3,7 +3,10 @@ import { Divider} from 'semantic-ui-react';
 import HeroPaquetes from './HeroComponents/HeroPaquetes'
 import ToursPaquetes from './ToursPaquetes/ToursPaquetes'
 import CardPaquetes from './CardPaquetes/CardPaquetes'
-import PropTypes from 'prop-types';
+import axios from 'axios';
+
+import TourList from './ToursList';
+
 
 class Paquetes extends Component {
 
@@ -16,16 +19,18 @@ class Paquetes extends Component {
     }
 
     async componentDidMount() {
-        const res = await fetch('http://localhost:3001/v1/tours');
-        const data = await res.json();
-        this.setState({
-            tours: data[0]
-        })
+        axios.get('http://localhost:3001/v1/tours')
+            .then(res => {
+                this.setState({ tours: res.data });
+                console.log(this.state)
+            })
     }
 
-    render(props) {
+    render() {
         return (
             <div>
+                <TourList data={this.state.tours}/>
+
                 <HeroPaquetes />
                 <br/>
                 <Divider horizontal><h2>Tours</h2></Divider>
@@ -37,7 +42,5 @@ class Paquetes extends Component {
         );
     }
 }
-
-Paquetes.propTypes = {};
 
 export default Paquetes;
