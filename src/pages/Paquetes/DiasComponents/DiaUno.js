@@ -11,12 +11,16 @@ class DiaUno extends Component {
         }
     }
     async componentDidMount() {
-        const res = await fetch('http://localhost:3001/v1/tours/');
+        this.fetchData()
+    }
+    async componentDidMount() {
+        const res = await fetch('http://localhost:3001/v1/tours');
         const data = await res.json();
         this.setState({
             tours: data[0]
         })
     }
+
     render(props) {
         return (
                 <div>

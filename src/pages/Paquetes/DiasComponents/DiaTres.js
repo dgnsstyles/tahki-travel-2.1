@@ -12,15 +12,12 @@ class DiaTres extends Component {
         }
     }
     async componentDidMount() {
-        this.fetchData()
-        }
-        fetchData(){
-            fetch('http://localhost:3001/v1/tours/')
-                .then(response => response.json())
-                .then(parsedJson => console.log(parsedJson.results))
-                .catch(error => console.log('parsing fails', error))
-
-        }
+        const res = await fetch('http://localhost:3001/v1/tours');
+        const data = await res.json();
+        this.setState({
+            tours: data[0]
+        })
+    }
 
     render(){
         return (
@@ -33,7 +30,11 @@ class DiaTres extends Component {
                         <Image src="/static/Images/Cusco_114.jpg" rounded size='big' spaced='left'/>
                     </Grid.Column>
                     <Grid.Column width={10}>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto delectus doloribus error facilis harum inventore laboriosam magni, maxime minima nam nostrum possimus praesentium quas repellendus sit soluta sunt ullam!</p>
+                        <p>{this.state.tours.days}</p>
+                        <h5>incluye</h5>
+                        <p>{this.state.tours.include}</p>
+                        <h5>no incluye</h5>
+                        <p>{this.state.tours.not_include}</p>
                     </Grid.Column>
                 </Grid>
             </div>

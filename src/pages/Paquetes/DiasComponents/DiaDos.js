@@ -1,8 +1,6 @@
 import React, {Component} from 'react';
 import {  Header, Divider, Grid, Image} from 'semantic-ui-react'
 
-import PropTypes from 'prop-types';
-
 class DiaDos extends Component {
     constructor(props){
         super(props);
@@ -30,7 +28,7 @@ class DiaDos extends Component {
                         <Image src="/static/Images/Cusco_114.jpg" rounded size='big' spaced='left'/>
                     </Grid.Column>
                     <Grid.Column width={10}>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto delectus doloribus error facilis harum inventore laboriosam magni, maxime minima nam nostrum possimus praesentium quas repellendus sit soluta sunt ullam!</p>
+                        <p>{this.state.tours.days}</p>
                     </Grid.Column>
                 </Grid>
             </div>
@@ -38,6 +36,5 @@ class DiaDos extends Component {
     }
 }
 
-DiaDos.propTypes = {};
 
 export default DiaDos;
