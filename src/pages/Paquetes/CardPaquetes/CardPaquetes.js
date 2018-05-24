@@ -56,7 +56,7 @@ class CardPaquetes extends React.Component {
                                     <span className="date">21 de Febrero</span>
                                 </Card.Meta>
                                 <Card.Description style={{color: 'white', fontWeight: 'bold'}}>
-                                    {this.state.destinos.description}]]]]]]–––{{}}
+                                    {this.state.destinos.description}
                                 </Card.Description>
                             </Card.Content>
                         </Card>

@@ -5,17 +5,14 @@ import { Link } from 'react-router-dom'
 class ToursList extends Component {
     constructor(props){
         super(props);
-
-        
-
-    }
-
+        }
 
     render(props) {
         console.log(this.props.data);
         {/* Brings data to the console*/}
         return (
-            <Link to={{
+            <div>
+                <Link to={{
                 pathname: `/paquetes/${this.props.path}`,
                 state: { props }
             }}>
@@ -27,6 +24,8 @@ class ToursList extends Component {
                     ))}
                 </div>
             </Link>
+            </div>
+
 
         )
     }
