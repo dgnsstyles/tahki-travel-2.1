@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {  Header, Divider, Grid, Image} from 'semantic-ui-react'
+import { Header, Divider, Grid, Image} from 'semantic-ui-react'
 
 import PropTypes from 'prop-types';
 
@@ -21,6 +21,7 @@ class DiaUno extends Component {
         })
     }
 
+
     render(props) {
         return (
                 <div>
@@ -31,7 +32,11 @@ class DiaUno extends Component {
                             <Image src="/static/Images/Cusco_114.jpg" rounded size='big' spaced='left'/>
                         </Grid.Column>
                         <Grid.Column width={10}>
-                            <p>{this.state.tours.days}</p>
+                            <ul>{this.state.tours.days}</ul>
+                            <h5>incluye</h5>
+                            <p>{this.state.tours.include}</p>
+                            <h5>no incluye</h5>
+                            <p>{this.state.tours.not_include}</p>
                         </Grid.Column>
                     </Grid>
                 </div>

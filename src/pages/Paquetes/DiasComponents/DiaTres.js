@@ -30,7 +30,7 @@ class DiaTres extends Component {
                         <Image src="/static/Images/Cusco_114.jpg" rounded size='big' spaced='left'/>
                     </Grid.Column>
                     <Grid.Column width={10}>
-                        <p>{this.state.tours.days}</p>
+                       <p>{this.state.tours.map}</p>
                         <h5>incluye</h5>
                         <p>{this.state.tours.include}</p>
                         <h5>no incluye</h5>

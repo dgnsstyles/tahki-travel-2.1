@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import './HeroDestinos.scss'
 
 class HeroDestinos extends Component {
+
     render() {
         return (
             <div className="Header">

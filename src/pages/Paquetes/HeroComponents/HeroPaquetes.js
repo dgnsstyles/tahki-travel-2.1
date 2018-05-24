@@ -4,10 +4,27 @@ import PropTypes from 'prop-types';
 import './HeroPaquetes.scss'
 
 class HeroPaquetes extends Component {
-    render() {
+
+    constructor(props){
+        super(props);
+        this.state = {
+            tours: ''
+        }
+    }
+    async componentDidMount() {
+        this.fetchData()
+    }
+    async componentDidMount() {
+        const res = await fetch('http://localhost:3001/v1/tours');
+        const data = await res.json();
+        this.setState({
+            tours: data[0]
+        })
+    }
+    render(props) {
         return (
             <div className="Header">
-                <Header><h1>Cusco</h1></Header>
+                <Header><h1>{this.state.tours.title}</h1></Header>
                 <style jsx>{`
             .Header{
            background-image: url("/static/Images/machupichu.jpg");
@@ -20,7 +37,7 @@ class HeroPaquetes extends Component {
 
               }
               h1{
-              font-size: 120px;
+              font-size: 50px;
               text-align: center;
               font-family: Raleway;
               color: white;
