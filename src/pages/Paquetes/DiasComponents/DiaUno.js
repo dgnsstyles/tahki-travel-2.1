@@ -10,9 +10,7 @@ class DiaUno extends Component {
             tours: ''
         }
     }
-    async componentDidMount() {
-        this.fetchData()
-    }
+
     async componentDidMount() {
         const res = await fetch('http://localhost:3001/v1/tours');
         const data = await res.json();
@@ -23,6 +21,7 @@ class DiaUno extends Component {
 
 
     render(props) {
+         console.log(this.state)
         return (
                 <div>
                     <Header size='huge' style={{ fontSize:'60px', fontFamily:'Raleway'}}>{this.state.tours.title}</Header>
