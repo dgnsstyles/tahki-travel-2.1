@@ -26,10 +26,10 @@ class Paquetes extends Component {
             })
     }
 
-    render() {
+    render(props) {
         return (
             <div>
-                <TourList data={this.state.tours}/>
+                <TourList data={this.state.tours} {...props}/>
 
                 <HeroPaquetes />
                 <br/>

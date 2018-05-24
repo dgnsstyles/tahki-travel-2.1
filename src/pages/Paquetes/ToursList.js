@@ -3,11 +3,20 @@ import { Link } from 'react-router-dom'
 
 
 class ToursList extends Component {
-    render() {
+    constructor(props){
+        super(props);
+
+        
+
+    }
+
+
+    render(props) {
         console.log(this.props.data);
+        {/* Brings data to the console*/}
         return (
             <Link to={{
-                pathname: `/paquetes/${props.path}`,
+                pathname: `/paquetes/${this.props.path}`,
                 state: { props }
             }}>
                 <div>
