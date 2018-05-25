@@ -1,12 +1,11 @@
 import React, {Component} from 'react';
 import { Link }  from 'react-router-dom';
 import LogoNav from '../assets/Images/LogoNav.png'
-import { Container, Image,  Menu, Sidebar, Responsive, Icon, Button, Visibility, Segment } from 'semantic-ui-react'
+import { Container, Image,  Menu, Sidebar, Responsive, Icon, Visibility, Segment } from 'semantic-ui-react'
 import Inicio from '../pages/Inicio/Inicio'
 import Destinos from '../pages/Destinos/Destinos'
 import Nosotros from '../pages/Nosotros/Nosotros'
 import Contacto from "../pages/Contacto/Contacto";
-import Paquetes from '../pages/Paquetes/Paquetes'
 import './Navbar.scss'
 import PropTypes from 'prop-types';
 
@@ -68,25 +67,25 @@ class MobileContainer extends Component {
         return (
             <Responsive {...Responsive.onlyMobile}>
                 <Sidebar.Pushable>
-                    <Sidebar as={Menu} animation='uncover' inverted vertical visible={sidebarOpened}>
-                        <Menu.Item as='a' active>Home</Menu.Item>
-                        <Menu.Item as='a'>Work</Menu.Item>
-                        <Menu.Item as='a'>Company</Menu.Item>
-                        <Menu.Item as='a'>Careers</Menu.Item>
-                        <Menu.Item as='a'>Log in</Menu.Item>
-                        <Menu.Item as='a'>Sign Up</Menu.Item>
+                    <Sidebar as={Menu} animation='uncover' vertical visible={sidebarOpened}>
+                        <Menu.Item header><Link to="/" component={Inicio} style={{ fontFamily: 'Raleway'}}><Image src={LogoNav}/></Link></Menu.Item>
+                        <Menu.Item position='right' >
+                            <Link to="/" exact component={Inicio} style={{fontfamily:'Raleway'}}>Inicio</Link>
+                        </Menu.Item>
+                        <Menu.Item position='right'><Link to="/Destinos" component={Destinos} style={{ fontFamily: 'Raleway'}}>Destinos</Link></Menu.Item>
+                        <Menu.Item position='right'><Link to="/Nosotros" component={Nosotros} style={{ fontFamily: 'Raleway'}}>Nosotros</Link></Menu.Item>
+                        <Menu.Item position='right'><Link to="/contacto" component={Contacto} style={{ fontFamily: 'Raleway'}}>Contacto</Link></Menu.Item>
                     </Sidebar>
 
-                    <Sidebar.Pusher dimmed={sidebarOpened} onClick={this.handlePusherClick} style={{ minHeight: '100vh' }}>
-                        <Segment inverted textAlign='center' style={{ minHeight: 350, padding: '1em 0em' }} vertical>
+                    <Sidebar.Pusher dimmed={sidebarOpened} onClick={this.handlePusherClick} style={{ minHeight: '100vh', position:'relative' }}>
+                        <Segment inverted textAlign='center' style={{ minHeight: 70, padding: '1em 0em' }} vertical>
                             <Container>
-                                <Menu inverted pointing secondary size='large'>
+                                <Menu inverted pointing secondary size='medium'>
                                     <Menu.Item onClick={this.handleToggle}>
                                         <Icon name='sidebar' />
                                     </Menu.Item>
                                     <Menu.Item position='right'>
-                                        <Button as='a' inverted>Log in</Button>
-                                        <Button as='a' inverted style={{ marginLeft: '0.5em' }}>Sign Up</Button>
+
                                     </Menu.Item>
                                 </Menu>
                             </Container>
