@@ -26,10 +26,11 @@ class destinos extends Component {
             <div>
 
                 <HeroDestinos props={this.state.destinos.map}/>
-                <h1>destinos</h1>
+                <h1 style={{ textAlign: 'center', fontSize: '35px'}}>Destinos</h1>
                 <Divider/>
                 <Container>
                     <CardDestinos/>
+                    <br/>
                 </Container>
 
             </div>

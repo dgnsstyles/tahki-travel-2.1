@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {Header} from 'semantic-ui-react'
-import PropTypes from 'prop-types';
+import MachuPichu from '../../../assets/Images/machu-picchu.jpg'
 import './HeroPaquetes.scss'
 
 class HeroPaquetes extends Component {
@@ -23,35 +23,30 @@ class HeroPaquetes extends Component {
     }
     render(props) {
         return (
-            <div className="Header">
-                <Header><h1>{this.state.tours.title}</h1></Header>
-                <style jsx>{`
-            .Header{
-           background-image: url("/static/Images/machupichu.jpg");
-           background-size: cover;
-            display: block;
-            margin-bottom: 3em;
-            width: 100%;
-            padding-top: 100px;
-            padding-bottom: 150px;
-
-              }
-              h1{
-              font-size: 50px;
-              text-align: center;
-              font-family: Raleway;
-              color: white;
-              padding-top: 1em;
-              }
-
-
-            `}
-                </style>
+            <div style={styleComponent}>
+                <Header><h1
+                style={{
+                    fontSize: '50px',
+                    textAlign: 'center',
+                    fontFamily: 'raleway',
+                    color: 'white',
+                    paddingTop: '1em'
+                }}>{this.state.tours.title}</h1>
+                </Header>
             </div>
         );
     }
 }
+const styleComponent = {
+    backgroundImage: `url("${MachuPichu}")`,
+    backgroundSize: 'cover',
+    display: 'block',
+    marginBottom: '3em',
+    width:'100%',
+    paddingTop: '100px',
+    paddingBottom: '150px'
+}
 
-HeroPaquetes.propTypes = {};
+
 
 export default HeroPaquetes;

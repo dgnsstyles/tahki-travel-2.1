@@ -1,5 +1,7 @@
 import React from 'react';
 import {Grid, Container, Card} from 'semantic-ui-react'
+import Arequipa from '../../../assets/Images/Arequipa.png'
+import Peru from '../../../assets/Images/Peru.png'
 
 
 class CardPaquetes extends React.Component {
@@ -23,7 +25,7 @@ class CardPaquetes extends React.Component {
                     <Grid.Column>
 
                         <Card style={{
-                            backgroundImage: 'url("src/assets/Images/Arequipa.png")',
+                            backgroundImage: `url("${Arequipa}")`,
                             backgroundSize: 'cover', display: 'block'
                         }}>
                             <Card.Content style={{paddingTop: '200px'}}>
@@ -43,7 +45,7 @@ class CardPaquetes extends React.Component {
                     </Grid.Column>
                     <Grid.Column>
                         <Card style={{
-                            backgroundImage: 'url("/static/Images/Llama.png")',
+                            backgroundImage: `url("${Peru}")`,
                             backgroundSize: 'cover', display: 'block'
                         }}>
                             <Card.Content style={{paddingTop: '200px'}}>
@@ -63,7 +65,7 @@ class CardPaquetes extends React.Component {
                     </Grid.Column>
                     <Grid.Column>
                         <Card style={{
-                            backgroundImage: 'url("/static/Images/Peru.png")',
+                            backgroundImage: `url("${Peru}")`,
                             backgroundSize: 'cover', display: 'block'
                         }}>
                             <Card.Content style={{paddingTop: '200px'}}>

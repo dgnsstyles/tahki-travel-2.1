@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2af06052-00bb-4670-ac12-5f83090ac82d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Contacto/HeroContacto.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Contacto/HeroContacto.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Destinos/CardDestinos.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Destinos/CardDestinos.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Inicio/InicioComponents/HeroInicio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Inicio/InicioComponents/HeroInicio.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Inicio/InicioComponents/Streched.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Inicio/InicioComponents/Streched.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Destinos/Destinos.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Destinos/Destinos.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Destinos/HeroDestinos.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Destinos/HeroDestinos.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Paquetes/CardPaquetes/CardPaquetes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Paquetes/CardPaquetes/CardPaquetes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Paquetes/HeroComponents/HeroPaquetes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Paquetes/HeroComponents/HeroPaquetes.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,22 +19,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Destinos.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/Destinos/Destinos.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-286">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CardDestinos.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CardDestinos.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/Destinos/CardDestinos.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
+            <state relative-caret-position="960">
               <caret line="64" column="76" selection-start-line="64" selection-start-column="76" selection-end-line="64" selection-end-column="76" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
@@ -59,24 +46,12 @@
       <file leaf-file-name="Streched.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/Inicio/InicioComponents/Streched.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="825">
-              <caret line="55" column="66" lean-forward="true" selection-start-line="55" selection-start-column="66" selection-end-line="55" selection-end-column="66" />
+            <state relative-caret-position="217">
+              <caret line="26" column="97" lean-forward="true" selection-start-line="26" selection-start-column="75" selection-end-line="26" selection-end-column="97" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
                 <element signature="n#style#0;n#Reveal.Content#1;n#Reveal#0;n#Grid.Column#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#Reveal.Content#1;n#Reveal#0;n#Responsive#0;n#Grid.Column#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HeroNosotros.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/Nosotros/HeroNosotros.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -106,20 +81,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HeroInicio.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/Inicio/InicioComponents/HeroInicio.js">
+      <file leaf-file-name="HeroDestinos.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/Destinos/HeroDestinos.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="63" selection-start-line="2" selection-start-column="63" selection-end-line="2" selection-end-column="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Contacto.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/Contacto/Contacto.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="132">
+              <caret line="12" column="54" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="54" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -127,14 +93,47 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Aliansas.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/Inicio/InicioComponents/Aliansas.js">
+      <file leaf-file-name="Destinos.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/Destinos/Destinos.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+            <state relative-caret-position="480">
+              <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CardPaquetes.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pages/Paquetes/CardPaquetes/CardPaquetes.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="164">
+              <caret line="67" column="62" lean-forward="true" selection-start-line="67" selection-start-column="62" selection-end-line="67" selection-end-column="62" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HeroPaquetes.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/Paquetes/HeroComponents/HeroPaquetes.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-11">
+              <caret line="31" column="35" lean-forward="true" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HeroInicio.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/Inicio/InicioComponents/HeroInicio.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="63" selection-start-line="2" selection-start-column="63" selection-end-line="2" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -169,12 +168,9 @@
         <option value="$PROJECT_DIR$/src/pages/Paquetes/ToursPaquetes/ToursPaquetes.js" />
         <option value="$PROJECT_DIR$/src/pages/Paquetes/DiasComponents/DiaDos.js" />
         <option value="$PROJECT_DIR$/src/pages/Paquetes/DiasComponents/DiaTres.js" />
-        <option value="$PROJECT_DIR$/src/pages/Destinos/HeroDestinos.js" />
-        <option value="$PROJECT_DIR$/src/pages/Paquetes/HeroComponents/HeroPaquetes.js" />
         <option value="$PROJECT_DIR$/src/pages/Paquetes/DiasComponents/DiaUno.js" />
         <option value="$PROJECT_DIR$/src/pages/Paquetes/Paquetes.js" />
         <option value="$PROJECT_DIR$/src/pages/Paquetes/ToursList.js" />
-        <option value="$PROJECT_DIR$/src/pages/Paquetes/CardPaquetes/CardPaquetes.js" />
         <option value="$PROJECT_DIR$/src/Components/Footer.js" />
         <option value="$PROJECT_DIR$/src/footer.js" />
         <option value="$PROJECT_DIR$/src/Components/footer.js" />
@@ -183,7 +179,6 @@
         <option value="$PROJECT_DIR$/src/Components/Navbar.js" />
         <option value="$PROJECT_DIR$/src/pages/Inicio/Inicio.js" />
         <option value="$PROJECT_DIR$/src/pages/Contacto/Contacto.js" />
-        <option value="$PROJECT_DIR$/src/pages/Destinos/Destinos.js" />
         <option value="$PROJECT_DIR$/src/pages/Inicio/InicioComponents/Aliansas.js" />
         <option value="$PROJECT_DIR$/src/pages/Inicio/InicioComponents/Cards.js" />
         <option value="$PROJECT_DIR$/src/pages/Nosotros/HeroNosotros.js" />
@@ -193,6 +188,10 @@
         <option value="$PROJECT_DIR$/src/pages/Inicio/InicioComponents/HeroInicio.js" />
         <option value="$PROJECT_DIR$/src/pages/Inicio/InicioComponents/Streched.js" />
         <option value="$PROJECT_DIR$/src/pages/Destinos/CardDestinos.js" />
+        <option value="$PROJECT_DIR$/src/pages/Destinos/HeroDestinos.js" />
+        <option value="$PROJECT_DIR$/src/pages/Destinos/Destinos.js" />
+        <option value="$PROJECT_DIR$/src/pages/Paquetes/HeroComponents/HeroPaquetes.js" />
+        <option value="$PROJECT_DIR$/src/pages/Paquetes/CardPaquetes/CardPaquetes.js" />
       </list>
     </option>
   </component>
@@ -212,8 +211,9 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="y" value="39" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="42" />
+    <option name="y" value="23" />
     <option name="width" value="1287" />
     <option name="height" value="724" />
   </component>
@@ -251,15 +251,15 @@
               <item name="tahki-travel-2.1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="Inicio" type="462c0819:PsiDirectoryNode" />
+              <item name="Paquetes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tahki-travel-2.1" type="b2602c69:ProjectViewProjectNode" />
               <item name="tahki-travel-2.1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="Inicio" type="462c0819:PsiDirectoryNode" />
-              <item name="InicioComponents" type="462c0819:PsiDirectoryNode" />
+              <item name="Paquetes" type="462c0819:PsiDirectoryNode" />
+              <item name="CardPaquetes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -309,15 +309,15 @@
       <option name="presentableId" value="Default" />
       <updated>1527095868854</updated>
       <workItem from="1527095870431" duration="29047000" />
-      <workItem from="1527256447188" duration="8741000" />
+      <workItem from="1527256447188" duration="10933000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43901000" />
+    <option name="totallyTimeSpent" value="46093000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="39" width="1287" height="724" extended-state="6" />
+    <frame x="42" y="23" width="1287" height="724" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23459716" />
@@ -328,7 +328,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.32854864" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32854864" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32854864" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -395,6 +395,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -419,6 +422,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
           <caret line="39" column="30" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -519,34 +525,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/Destinos/HeroDestinos.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/Paquetes/HeroComponents/HeroPaquetes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="30" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/Paquetes/DiasComponents/DiaUno.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-173">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/Paquetes/CardPaquetes/CardPaquetes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="58" column="69" selection-start-line="58" selection-start-column="69" selection-end-line="58" selection-end-column="69" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -646,16 +628,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/Destinos/Destinos.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-286">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/Inicio/InicioComponents/Aliansas.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -689,41 +661,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/Contacto/HeroContacto.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/Nosotros/Nosotros.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="131">
           <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/Inicio/InicioComponents/HeroInicio.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="63" selection-start-line="2" selection-start-column="63" selection-end-line="2" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/Inicio/InicioComponents/Streched.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="55" column="66" lean-forward="true" selection-start-line="55" selection-start-column="66" selection-end-line="55" selection-end-column="66" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-            <element signature="n#style#0;n#Reveal.Content#1;n#Reveal#0;n#Grid.Column#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#Reveal.Content#1;n#Reveal#0;n#Responsive#0;n#Grid.Column#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -740,10 +683,79 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/Destinos/CardDestinos.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
+        <state relative-caret-position="960">
           <caret line="64" column="76" selection-start-line="64" selection-start-column="76" selection-end-line="64" selection-end-column="76" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/Inicio/InicioComponents/HeroInicio.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="63" selection-start-line="2" selection-start-column="63" selection-end-line="2" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/Inicio/InicioComponents/Streched.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="26" column="97" lean-forward="true" selection-start-line="26" selection-start-column="75" selection-end-line="26" selection-end-column="97" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="n#style#0;n#Reveal.Content#1;n#Reveal#0;n#Grid.Column#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#Reveal.Content#1;n#Reveal#0;n#Responsive#0;n#Grid.Column#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/Destinos/Destinos.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/Destinos/HeroDestinos.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="12" column="54" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/Contacto/HeroContacto.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/Paquetes/HeroComponents/HeroPaquetes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11">
+          <caret line="31" column="35" lean-forward="true" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/Paquetes/CardPaquetes/CardPaquetes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="67" column="62" lean-forward="true" selection-start-line="67" selection-start-column="62" selection-end-line="67" selection-end-column="62" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
