@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import {Grid, Container, Card} from 'semantic-ui-react'
 import Arequipa from '../../assets/Images/Arequipa.png'
+import Llama from '../../assets/Images/Llama.png'
+import Peru from '../../assets/Images/Peru.png'
 
 class CardDestinos extends Component {
     constructor(props){
@@ -24,7 +26,7 @@ class CardDestinos extends Component {
                     <Grid columns={3} doubling>
                         <Grid.Column>
 
-                            <Card  style={{backgroundImage:'url("../../assets/Images/Arequipa.png")',
+                            <Card  style={{backgroundImage:`url("${Arequipa}")`,
                                 backgroundSize:'cover', display:'block'}}>
                                 <Card.Content style={{ paddingTop:'200px'}}>
                                     <Card.Header  style={{ color:'white', fontSize:'25px'}}>
@@ -42,7 +44,7 @@ class CardDestinos extends Component {
                             </Card>
                         </Grid.Column>
                         <Grid.Column>
-                            <Card  style={{backgroundImage:'url("/static/Images/Llama.png")',
+                            <Card  style={{backgroundImage:`url("${Llama}")`,
                                 backgroundSize:'cover', display:'block'}}>
                                 <Card.Content style={{ paddingTop:'200px'}}>
                                     <Card.Header  style={{ color:'white', fontSize:'25px'}}>
@@ -60,7 +62,7 @@ class CardDestinos extends Component {
                             </Card>
                         </Grid.Column>
                         <Grid.Column>
-                            <Card  style={{backgroundImage:'url("/static/Images/Peru.png")',
+                            <Card  style={{backgroundImage:`url("${Peru}")`,
                                 backgroundSize:'cover', display:'block'}}>
                                 <Card.Content style={{ paddingTop:'200px'}}>
                                     <Card.Header  style={{ color:'white', fontSize:'25px'}}>

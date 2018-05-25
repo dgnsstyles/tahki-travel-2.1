@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2af06052-00bb-4670-ac12-5f83090ac82d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/Nosotros/HeroNosotros.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Contacto/Contacto.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Contacto/Contacto.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Contacto/HeroContacto.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Contacto/HeroContacto.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Destinos/CardDestinos.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Destinos/CardDestinos.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Destinos/Destinos.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Destinos/Destinos.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Inicio/Inicio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Inicio/Inicio.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Inicio/InicioComponents/Aliansas.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Inicio/InicioComponents/Aliansas.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Inicio/InicioComponents/Cards.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Inicio/InicioComponents/Cards.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Inicio/InicioComponents/HeroInicio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Inicio/InicioComponents/HeroInicio.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Nosotros/Nosotros.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Nosotros/Nosotros.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Inicio/InicioComponents/Streched.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Inicio/InicioComponents/Streched.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,42 +20,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Paquetes.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/Paquetes/Paquetes.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="31" column="62" selection-start-line="31" selection-start-column="62" selection-end-line="31" selection-end-column="62" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Inicio.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/Inicio/Inicio.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ToursList.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/Paquetes/ToursList.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Destinos.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/Destinos/Destinos.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -74,11 +32,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CardDestinos.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CardDestinos.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pages/Destinos/CardDestinos.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="73" selection-start-line="26" selection-start-column="73" selection-end-line="26" selection-end-column="73" />
+            <state relative-caret-position="307">
+              <caret line="64" column="76" selection-start-line="64" selection-start-column="76" selection-end-line="64" selection-end-column="76" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -93,6 +51,20 @@
               <caret line="60" column="54" lean-forward="true" selection-start-line="60" selection-start-column="54" selection-end-line="60" selection-end-column="54" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Streched.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/Inicio/InicioComponents/Streched.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="825">
+              <caret line="55" column="66" lean-forward="true" selection-start-line="55" selection-start-column="66" selection-end-line="55" selection-end-column="66" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+                <element signature="n#style#0;n#Reveal.Content#1;n#Reveal#0;n#Grid.Column#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#Reveal.Content#1;n#Reveal#0;n#Responsive#0;n#Grid.Column#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -113,7 +85,7 @@
       <file leaf-file-name="Nosotros.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/Nosotros/Nosotros.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
+            <state relative-caret-position="131">
               <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
@@ -122,11 +94,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HeroContacto.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HeroContacto.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/Contacto/HeroContacto.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
+            <state relative-caret-position="210">
+              <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HeroInicio.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/Inicio/InicioComponents/HeroInicio.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="63" selection-start-line="2" selection-start-column="63" selection-end-line="2" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Contacto.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/Contacto/Contacto.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="500">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -151,8 +144,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="SCSS File" />
         <option value="JavaScript File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -188,17 +181,18 @@
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/Routes/Routes.js" />
         <option value="$PROJECT_DIR$/src/Components/Navbar.js" />
-        <option value="$PROJECT_DIR$/src/pages/Inicio/InicioComponents/Streched.js" />
         <option value="$PROJECT_DIR$/src/pages/Inicio/Inicio.js" />
-        <option value="$PROJECT_DIR$/src/pages/Inicio/InicioComponents/HeroInicio.js" />
         <option value="$PROJECT_DIR$/src/pages/Contacto/Contacto.js" />
         <option value="$PROJECT_DIR$/src/pages/Destinos/Destinos.js" />
-        <option value="$PROJECT_DIR$/src/pages/Destinos/CardDestinos.js" />
         <option value="$PROJECT_DIR$/src/pages/Inicio/InicioComponents/Aliansas.js" />
         <option value="$PROJECT_DIR$/src/pages/Inicio/InicioComponents/Cards.js" />
         <option value="$PROJECT_DIR$/src/pages/Nosotros/HeroNosotros.js" />
         <option value="$PROJECT_DIR$/src/pages/Nosotros/Nosotros.js" />
+        <option value="$PROJECT_DIR$/src/pages/Contacto/HeroContacto.scss" />
         <option value="$PROJECT_DIR$/src/pages/Contacto/HeroContacto.js" />
+        <option value="$PROJECT_DIR$/src/pages/Inicio/InicioComponents/HeroInicio.js" />
+        <option value="$PROJECT_DIR$/src/pages/Inicio/InicioComponents/Streched.js" />
+        <option value="$PROJECT_DIR$/src/pages/Destinos/CardDestinos.js" />
       </list>
     </option>
   </component>
@@ -218,10 +212,9 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-62" />
-    <option name="y" value="391" />
-    <option name="width" value="1210" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="y" value="39" />
+    <option name="width" value="1287" />
     <option name="height" value="724" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -258,7 +251,15 @@
               <item name="tahki-travel-2.1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="Contacto" type="462c0819:PsiDirectoryNode" />
+              <item name="Inicio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tahki-travel-2.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tahki-travel-2.1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="Inicio" type="462c0819:PsiDirectoryNode" />
+              <item name="InicioComponents" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -308,18 +309,18 @@
       <option name="presentableId" value="Default" />
       <updated>1527095868854</updated>
       <workItem from="1527095870431" duration="29047000" />
-      <workItem from="1527256447188" duration="5653000" />
+      <workItem from="1527256447188" duration="8741000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40813000" />
+    <option name="totallyTimeSpent" value="43901000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-62" y="391" width="1210" height="724" extended-state="0" />
+    <frame x="0" y="39" width="1287" height="724" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24978974" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23459716" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -327,7 +328,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.32854864" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32854864" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32854864" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -346,16 +347,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/pages/Inicio/InicioComponents/Aliansas.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
@@ -615,13 +606,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/Inicio/InicioComponents/Streched.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -638,26 +622,6 @@
           <caret line="31" column="62" selection-start-line="31" selection-start-column="62" selection-end-line="31" selection-end-column="62" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/Contacto/Contacto.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/Inicio/InicioComponents/HeroInicio.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="59" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="59" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -692,30 +656,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/Destinos/CardDestinos.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="73" selection-start-line="26" selection-start-column="73" selection-end-line="26" selection-end-column="73" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/Inicio/InicioComponents/Aliansas.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/Inicio/InicioComponents/Cards.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="60" column="54" lean-forward="true" selection-start-line="60" selection-start-column="54" selection-end-line="60" selection-end-column="54" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -732,10 +676,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/Nosotros/Nosotros.js">
+    <entry file="file://$PROJECT_DIR$/src/pages/Contacto/HeroContacto.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/Contacto/Contacto.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+        <state relative-caret-position="500">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -744,10 +691,59 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/Contacto/HeroContacto.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
+        <state relative-caret-position="210">
+          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/Nosotros/Nosotros.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/Inicio/InicioComponents/HeroInicio.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="63" selection-start-line="2" selection-start-column="63" selection-end-line="2" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/Inicio/InicioComponents/Streched.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="55" column="66" lean-forward="true" selection-start-line="55" selection-start-column="66" selection-end-line="55" selection-end-column="66" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="n#style#0;n#Reveal.Content#1;n#Reveal#0;n#Grid.Column#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#Reveal.Content#1;n#Reveal#0;n#Responsive#0;n#Grid.Column#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/Inicio/InicioComponents/Cards.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="60" column="54" lean-forward="true" selection-start-line="60" selection-start-column="54" selection-end-line="60" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/Destinos/CardDestinos.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="64" column="76" selection-start-line="64" selection-start-column="76" selection-end-line="64" selection-end-column="76" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>

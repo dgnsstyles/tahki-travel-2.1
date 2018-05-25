@@ -1,5 +1,7 @@
 import React from 'react';
-
+import MachuPichu from '../../../assets/Images/maxresdefault.png'
+import TorresDelPaine from '../../../assets/Images/Torres_del_paine.jpg'
+import Lima from '../../../assets/Images/Lima.png'
 import { Grid, Segment, Container, Image, Reveal, Responsive } from 'semantic-ui-react'
 
 
@@ -12,7 +14,7 @@ const Streched = () => {
 
                         <Reveal animated='move'>
                             <Reveal.Content visible>
-                                <Image src='../static/Images/maxresdefault.png' size='massive' >
+                                <Image src={MachuPichu} size='massive' >
                                     <Container style={{paddingLeft:'1em', paddingRight:'10.305343511450381vw'}}>
                                         <h1 className="headCard invertedText">Cusco</h1>
 
@@ -22,7 +24,7 @@ const Streched = () => {
                                 </Image>
                             </Reveal.Content>
 
-                            <Reveal.Content hidden style={{backgroundImage:'url("/static/Images/maxresdefault.png")', backgroundSize:'cover', height:'100%'}}>
+                            <Reveal.Content hidden style={{backgroundImage:`url("${MachuPichu}")`, backgroundSize:'cover', height:'100%'}}>
 
                             </Reveal.Content>
                         </Reveal>
@@ -32,7 +34,7 @@ const Streched = () => {
                         <div style={{ paddingBottom:'10px'}}>
                             <Reveal animated='move'>
                                 <Reveal.Content visible>
-                                    <Image src='../static/Images/Torres_del_paine2.png' size='massive' dimmer >
+                                    <Image src={TorresDelPaine} size='massive' dimmer >
                                         <Container>
                                             <div style={{ paddingTop:'252px', margin:'0', paddingLeft:'0.125em'}}>
 
@@ -43,7 +45,7 @@ const Streched = () => {
                                         </Container>
                                     </Image>
                                 </Reveal.Content>
-                                <Reveal.Content hidden style={{backgroundImage:'url("/static/Images/Torres_del_paine2.png")', backgroundSize:'cover', height: '100%'}}>
+                                <Reveal.Content hidden style={{backgroundImage:`url("${TorresDelPaine}")`, backgroundSize:'cover', height: '100%'}}>
 
                                 </Reveal.Content>
                             </Reveal>
@@ -51,7 +53,7 @@ const Streched = () => {
                         <Responsive>
                             <Reveal animated='move'>
                                 <Reveal.Content visible>
-                                    <Image src='../static/Images/Lima.png' size='big' >
+                                    <Image src={Lima} size='big' >
                                         <div style={{ paddingTop:'252px', paddingRight:'10px', paddingLeft:'20px', margin:'0'}}>
 
                                             <h1 className="invertedText">Lima</h1>
@@ -59,7 +61,7 @@ const Streched = () => {
                                         </div>
                                     </Image>
                                 </Reveal.Content>
-                                <Reveal.Content className="Card-Hover" hidden style={{backgroundImage:'url("/static/Images/Lima.png")',  backgroundSize:'cover', height: '100%'}}>
+                                <Reveal.Content className="Card-Hover" hidden style={{backgroundImage:`url("${Lima}")`,  backgroundSize:'cover', height: '100%'}}>
 
                                 </Reveal.Content>
                             </Reveal>

@@ -1,22 +1,31 @@
 import React, {Component} from 'react';
-import { Responsive } from 'semantic-ui-react'
 import MachuPichu from '../../assets/Images/machu-picchu.jpg'
+import { Responsive, Header } from 'semantic-ui-react'
 
-const HeroContacto = ({mobile}) =>(
-    <Responsive>
-        <div className="HeroContacto">
-            <style>{`
-           .HeroContacto{
-            background-image: url("+ {MachuPichu} + ");
-           background-size: cover;
-            display: block;
-            margin-bottom: 3em;
-            width: 100%;
-            padding-top: 100px;
-            padding-bottom: 150px;
-           }`}</style></div>
 
-    </Responsive>
-)
 
-export default HeroContacto
+
+
+class HeroContacto extends Component {
+
+    render() {
+        return (
+            <Responsive>
+                <div style={sectionStyle}></div>
+            </Responsive>
+        );
+    }
+}
+const sectionStyle = {
+    width: "100%",
+    height: "400px",
+    backgroundImage: `url("${MachuPichu}")`,
+    display: 'block',
+    marginBottom: '3em',
+    paddingTop: '100px',
+    paddingBottom: '150px'
+
+}
+
+
+export default HeroContacto;

@@ -1,11 +1,12 @@
 import React from 'react';
 import {Container, Header, Image, Responsive,Button} from 'semantic-ui-react'
+import MachuPichu from '../../../assets/Images/machu-picchu.jpg'
 
 import PropTypes from 'prop-types';
 
 
 const Hero = ({ mobile }) => (
-    <Responsive  text style={{ backgroundImage: 'url("../../src/static/Images/machupichu.jpg")',
+    <Responsive  text style={{ backgroundImage: `url("${MachuPichu}")`,
         display: "block",
         marginTop: '4em',
         paddingBottom: '4em',
@@ -52,6 +53,7 @@ const Hero = ({ mobile }) => (
         </Container>
     </Responsive>
 )
+
 
 Hero.propTypes = {
     mobile: PropTypes.bool,

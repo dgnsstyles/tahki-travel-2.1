@@ -11,7 +11,7 @@ class HeroDestinos extends Component {
                 <Header>
                     <h1>Cuzco</h1>
                 </Header>
-                <style jsx>{`
+                <style>{`
             .Header{
            background-image: url("/static/Images/machupichu.jpg");
            background-size: cover;
