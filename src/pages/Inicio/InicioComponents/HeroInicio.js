@@ -1,10 +1,11 @@
-import React, {Component} from 'react';
+import React from 'react';
 import {Container, Header, Image, Responsive,Button} from 'semantic-ui-react'
+
 import PropTypes from 'prop-types';
 
 
 const Hero = ({ mobile }) => (
-    <Responsive  text style={{ backgroundImage: 'url("../static/Images/machupichu.jpg")',
+    <Responsive  text style={{ backgroundImage: 'url("../../src/static/Images/machupichu.jpg")',
         display: "block",
         marginTop: '4em',
         paddingBottom: '4em',

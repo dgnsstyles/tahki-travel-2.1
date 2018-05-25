@@ -2,7 +2,8 @@ import React, {Component} from 'react';
 import CardDestinos from './CardDestinos'
 import HeroDestinos from './HeroDestinos'
 import { Divider, Container } from 'semantic-ui-react'
-import PropTypes from 'prop-types';
+
+
 
 class destinos extends Component {
 
@@ -12,11 +13,9 @@ class destinos extends Component {
             destinos: ''
         }
     }
+
     async componentDidMount() {
-        this.fetchData()
-    }
-    async componentDidMount() {
-        const res = await fetch('http://localhost:3001/v1/destinations');
+        const res = await fetch(`http://localhost:3001/v1/destinations`);
         const data = await res.json();
         this.setState({
             destinos: data[0]
@@ -38,6 +37,6 @@ class destinos extends Component {
     }
 }
 
-destinos.propTypes = {};
+
 
 export default destinos;

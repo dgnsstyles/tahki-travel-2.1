@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {Grid, Container, Card} from 'semantic-ui-react'
-
+import Arequipa from '../../assets/Images/Arequipa.png'
 
 class CardDestinos extends Component {
     constructor(props){
@@ -24,7 +24,7 @@ class CardDestinos extends Component {
                     <Grid columns={3} doubling>
                         <Grid.Column>
 
-                            <Card  style={{backgroundImage:'url("/static/Images/Arequipa.png")',
+                            <Card  style={{backgroundImage:'url("../../assets/Images/Arequipa.png")',
                                 backgroundSize:'cover', display:'block'}}>
                                 <Card.Content style={{ paddingTop:'200px'}}>
                                     <Card.Header  style={{ color:'white', fontSize:'25px'}}>

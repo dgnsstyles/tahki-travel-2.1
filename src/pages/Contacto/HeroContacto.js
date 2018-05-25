@@ -1,12 +1,13 @@
 import React, {Component} from 'react';
 import { Responsive } from 'semantic-ui-react'
+import MachuPichu from '../../assets/Images/machu-picchu.jpg'
 
 const HeroContacto = ({mobile}) =>(
     <Responsive>
         <div className="HeroContacto">
             <style>{`
            .HeroContacto{
-            background-image: url("{process.env.PUBLIC_URL + '/assets/images/machupichu.jpg'}");
+            background-image: url("+ {MachuPichu} + ");
            background-size: cover;
             display: block;
             margin-bottom: 3em;

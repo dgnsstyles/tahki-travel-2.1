@@ -1,6 +1,6 @@
 import React from 'react';
 import  { Card, Icon, Grid, Image, Container } from 'semantic-ui-react'
-import Torres_del_paine from '../'
+import TorresDelPaine from '../../../assets/Images/Torres_del_paine.jpg'
 
 const Cards = () => {
     return (
@@ -10,7 +10,7 @@ const Cards = () => {
             <Grid columns={3} stackable>
                 <Grid.Column  mobile={16} tablet={8} computer={5}>
                     <Card >
-                        <Image src='../static/Images/Torres_del_paine.jpg' />
+                        <Image src={TorresDelPaine} />
                         <Card.Content>
                             <Card.Header>
                                 Torres del Paine
@@ -34,7 +34,7 @@ const Cards = () => {
                 </Grid.Column>
                 <Grid.Column mobile={16} tablet={8} computer={5}>
                     <Card>
-                        <Image src='../static/Images/Torres_del_paine.jpg' />
+                        <Image src={TorresDelPaine} />
                         <Card.Content>
                             <Card.Header>
                                 Torres del Paine
@@ -58,7 +58,7 @@ const Cards = () => {
                 </Grid.Column>
                 <Grid.Column mobile={16} tablet={8} computer={5}>
                     <Card>
-                        <Image src='../static/Images/Torres_del_paine.jpg' />
+                        <Image src={TorresDelPaine} />
                         <Card.Content>
                             <Card.Header>
                                 Cuzco Maravilloso

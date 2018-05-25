@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import HeroContacto from './HeroContacto'
-import {Container, Form, Button, Divider, TextArea} from 'semantic-ui-react';
+import {Container, Form, Button, TextArea} from 'semantic-ui-react';
 
-import PropTypes from 'prop-types';
+
 
 class Contacto extends Component {
     render() {
@@ -32,7 +32,5 @@ class Contacto extends Component {
         );
     }
 }
-
-Contacto.propTypes = {};
 
 export default Contacto;

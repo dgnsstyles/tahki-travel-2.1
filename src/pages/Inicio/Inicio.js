@@ -5,7 +5,6 @@ import Cards from './InicioComponents/Cards'
 import Aliansas from './InicioComponents/Aliansas'
 import { Divider } from 'semantic-ui-react';
 
-import PropTypes from 'prop-types';
 
 class Inicio extends Component {
     render() {
@@ -26,6 +25,6 @@ class Inicio extends Component {
     }
 }
 
-Inicio.propTypes = {};
+
 
 export default Inicio;

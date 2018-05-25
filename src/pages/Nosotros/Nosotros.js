@@ -1,11 +1,13 @@
 import React, {Component} from 'react';
 import { Divider, Container, Grid, GridRow, Menu } from 'semantic-ui-react'
+import HeroNosotros from './HeroNosotros'
 import PropTypes from 'prop-types';
 
 class Nosotros extends Component {
     render() {
         return (
             <div>
+                <HeroNosotros/>
                 <Divider horizontal><h2>QUIENES SOMOS</h2></Divider>
                 <Container>
                     <h1>Compañia</h1>
@@ -26,6 +28,5 @@ class Nosotros extends Component {
     }
 }
 
-Nosotros.propTypes = {};
 
 export default Nosotros;
