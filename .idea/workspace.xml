@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2af06052-00bb-4670-ac12-5f83090ac82d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/pages/Destinos/Destinos.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Destinos/Destinos.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Destinos/HeroDestinos.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Destinos/HeroDestinos.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Paquetes/CardPaquetes/CardPaquetes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Paquetes/CardPaquetes/CardPaquetes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Paquetes/HeroComponents/HeroPaquetes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Paquetes/HeroComponents/HeroPaquetes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -57,11 +55,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Nosotros.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/Nosotros/Nosotros.js">
+      <file leaf-file-name="HeroContacto.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/Contacto/HeroContacto.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+            <state relative-caret-position="210">
+              <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -69,11 +67,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HeroContacto.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/Contacto/HeroContacto.js">
+      <file leaf-file-name="Navbar.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Components/Navbar.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+            <state relative-caret-position="1673">
+              <caret line="112" column="20" lean-forward="true" selection-start-line="112" selection-start-column="20" selection-end-line="112" selection-end-column="20" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -105,11 +103,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CardPaquetes.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CardPaquetes.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/Paquetes/CardPaquetes/CardPaquetes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="67" column="62" lean-forward="true" selection-start-line="67" selection-start-column="62" selection-end-line="67" selection-end-column="62" />
+            <state relative-caret-position="-154">
+              <caret line="41" column="51" lean-forward="true" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="51" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -176,7 +174,6 @@
         <option value="$PROJECT_DIR$/src/Components/footer.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/Routes/Routes.js" />
-        <option value="$PROJECT_DIR$/src/Components/Navbar.js" />
         <option value="$PROJECT_DIR$/src/pages/Inicio/Inicio.js" />
         <option value="$PROJECT_DIR$/src/pages/Contacto/Contacto.js" />
         <option value="$PROJECT_DIR$/src/pages/Inicio/InicioComponents/Aliansas.js" />
@@ -192,6 +189,7 @@
         <option value="$PROJECT_DIR$/src/pages/Destinos/Destinos.js" />
         <option value="$PROJECT_DIR$/src/pages/Paquetes/HeroComponents/HeroPaquetes.js" />
         <option value="$PROJECT_DIR$/src/pages/Paquetes/CardPaquetes/CardPaquetes.js" />
+        <option value="$PROJECT_DIR$/src/Components/Navbar.js" />
       </list>
     </option>
   </component>
@@ -212,7 +210,7 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="42" />
+    <option name="x" value="460" />
     <option name="y" value="23" />
     <option name="width" value="1287" />
     <option name="height" value="724" />
@@ -244,22 +242,13 @@
               <item name="tahki-travel-2.1" type="b2602c69:ProjectViewProjectNode" />
               <item name="tahki-travel-2.1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tahki-travel-2.1" type="b2602c69:ProjectViewProjectNode" />
               <item name="tahki-travel-2.1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="Paquetes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tahki-travel-2.1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tahki-travel-2.1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="Paquetes" type="462c0819:PsiDirectoryNode" />
-              <item name="CardPaquetes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -309,15 +298,15 @@
       <option name="presentableId" value="Default" />
       <updated>1527095868854</updated>
       <workItem from="1527095870431" duration="29047000" />
-      <workItem from="1527256447188" duration="10933000" />
+      <workItem from="1527256447188" duration="12527000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46093000" />
+    <option name="totallyTimeSpent" value="47687000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="42" y="23" width="1287" height="724" extended-state="0" />
+    <frame x="460" y="23" width="1287" height="724" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23459716" />
@@ -578,16 +567,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Navbar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="34" column="130" selection-start-line="34" selection-start-column="130" selection-end-line="34" selection-end-column="130" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -752,10 +731,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/Paquetes/CardPaquetes/CardPaquetes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="67" column="62" lean-forward="true" selection-start-line="67" selection-start-column="62" selection-end-line="67" selection-end-column="62" />
+        <state relative-caret-position="-154">
+          <caret line="41" column="51" lean-forward="true" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="51" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Navbar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1673">
+          <caret line="112" column="20" lean-forward="true" selection-start-line="112" selection-start-column="20" selection-end-line="112" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
