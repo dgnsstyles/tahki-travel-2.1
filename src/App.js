@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import {Segment, Container, Grid, Image, List, Header} from 'semantic-ui-react'
 
-import {BrowserRouter as Router } from 'react-router-dom'
+import LogoFooter from './assets/Images/LogoFooter.png'
+import {BrowserRouter as Router} from 'react-router-dom'
 import './App.css';
 
 import Navbar from './Components/Navbar'
@@ -18,12 +19,11 @@ class App extends Component {
             <div className="App">
 
                 <Navbar/>
-
-               <Routes />
+                <Routes />
                 <Segment inverted vertical style={{ padding: '3em 0em' }}>
                     <Container>
                         <Grid centered divided inverted stackable>
-                            <Image src="../static/images/LogoFooter.png"/>
+                            <Image src={LogoFooter}/>
                         </Grid>
                     </Container>
                 </Segment>

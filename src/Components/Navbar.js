@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import { Link }  from 'react-router-dom';
+import LogoNav from '../assets/Images/LogoNav.png'
 import { Container, Image,  Menu, Sidebar, Responsive, Icon, Button, Visibility } from 'semantic-ui-react'
 import Inicio from '../pages/Inicio/Inicio'
 import Destinos from '../pages/Destinos/Destinos'
@@ -31,7 +32,7 @@ class Navbar extends Component {
                         className="Navbar"
                     >
                         <Container>
-                            <Menu.Item header><Link to="/" component={Inicio} style={{ fontFamily: 'Raleway'}}><Image/></Link></Menu.Item>
+                            <Menu.Item header><Link to="/" component={Inicio} style={{ fontFamily: 'Raleway'}}><Image src={LogoNav}/></Link></Menu.Item>
                             <Menu.Item position='right'><Link to="/" exact component={Inicio} style={{fontfamily:'Raleway'}}>Inicio</Link></Menu.Item>
                             <Menu.Item position='right'><Link to="/Destinos" component={Destinos} style={{ fontFamily: 'Raleway'}}>Destinos</Link></Menu.Item>
                             <Menu.Item position='right'><Link to="/Nosotros" component={Nosotros} style={{ fontFamily: 'Raleway'}}>Nosotros</Link></Menu.Item>

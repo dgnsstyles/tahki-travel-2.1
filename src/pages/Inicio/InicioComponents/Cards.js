@@ -1,5 +1,6 @@
 import React from 'react';
 import  { Card, Icon, Grid, Image, Container } from 'semantic-ui-react'
+import Torres_del_paine from '../'
 
 const Cards = () => {
     return (

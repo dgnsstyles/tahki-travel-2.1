@@ -1,4 +1,5 @@
 import React from 'react';
+
 import { Grid, Segment, Container, Image, Reveal, Responsive } from 'semantic-ui-react'
 
 
