@@ -19,23 +19,21 @@ class Paquetes extends Component {
     }
 
     async componentDidMount() {
-        axios.get('http://localhost:3001/v1/tours')
-            .then(res => {
-                this.setState({ tours: res.data });
-                console.log(this.state)
-            })
+       const { data } = await axios.get('http://localhost:3001/v1/tours');
+       this.setState({ tours: data});
+
     }
 
     render(props) {
         return (
             <div>
-                <TourList data={this.state.tours} {...props}/>
+                {'<TourList data={this.state.tours} {...props}/>'}
 
                 <HeroPaquetes />
                 <br/>
                 <Divider horizontal><h2>Tours</h2></Divider>
                 <br/>
-                <ToursPaquetes/>
+                <ToursPaquetes data={this.state.tours} param={this.props.match.params}/>
                 <br/>
                 <CardPaquetes/>
             </div>
