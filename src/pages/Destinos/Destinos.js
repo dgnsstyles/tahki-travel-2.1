@@ -57,13 +57,7 @@ class destinos extends Component {
             }
         })
     }
-    filtrar(){
-        return this.props.data.filter(e =>{
-            if(Number(e.commercial_id) === Number(this.props.param.id)){
-                return e;
-            }
-        })
-    }
+
     render() {
         return (
             <div>
