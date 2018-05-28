@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import MachuPichu from '../../assets/Images/machu-picchu.jpg'
-import { Responsive, Header } from 'semantic-ui-react'
+import { Responsive } from 'semantic-ui-react'
 
 
 

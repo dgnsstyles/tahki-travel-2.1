@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import {Grid, Container, Card} from 'semantic-ui-react'
 import Link from 'react-router-dom/Link'
-import Arequipa from '../../assets/Images/Arequipa.png'
-import Llama from '../../assets/Images/Llama.png'
-import Peru from '../../assets/Images/Peru.png'
+import MachuPichu3 from '../../assets/Images/MachuPichu3.jpg'
 import ParacasBoogie from '../../assets/Images/ParacasBoogie.jpg'
 import Lima2 from '../../assets/Images/Lima2.jpg'
 
@@ -22,7 +20,7 @@ class CardDestinos extends Component {
             destinos: data[0]
         })
     }
-    render() {
+    render(props) {
         return (
             <div>
                 <Container>
@@ -47,7 +45,7 @@ class CardDestinos extends Component {
                             </Card>
                         </Grid.Column>
                         <Grid.Column>
-                            <Card  style={{backgroundImage:`url("${Llama}")`,
+                            <Card  style={{backgroundImage:`url("${MachuPichu3}")`,
                                 backgroundSize:'cover', display:'block'}}>
                                 <Card.Content style={{ paddingTop:'200px'}}>
                                     <Card.Header  style={{ color:'white', fontSize:'25px'}}>

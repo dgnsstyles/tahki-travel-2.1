@@ -23,7 +23,7 @@ class ToursPaquetes extends Component {
                 clearInterval(inter);
                 var obj = self.filtrar();
                 var inter2 =  setInterval(function(){
-                    if(obj !=null && obj.length !=0){
+                    if(obj !=null && obj.length !==0){
                         clearInterval(inter2);
                         obj[0].days.map((element, index) => {
                             t.push({ menuItem: 'Dia ' + (index + 1), render: () => <Tab.Pane attached={false}><DiaUno data={element}/></Tab.Pane>});
@@ -59,7 +59,6 @@ class ToursPaquetes extends Component {
     }
 }
 
-ToursPaquetes.propTypes = {};
 
 export default ToursPaquetes;
 

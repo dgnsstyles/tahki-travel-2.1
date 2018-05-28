@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import { Header, Divider, Grid, Image} from 'semantic-ui-react'
 
-import PropTypes from 'prop-types';
 
 class DiaUno extends Component {
     constructor(props){
@@ -41,7 +40,5 @@ class DiaUno extends Component {
         );
     }
 }
-
-DiaUno.propTypes = {};
 
 export default DiaUno;

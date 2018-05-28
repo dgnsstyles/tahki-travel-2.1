@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Segment, Container, Grid, Image, List, Header} from 'semantic-ui-react'
+import {Segment, Container, Grid, Image} from 'semantic-ui-react'
 
 import LogoFooter from './assets/Images/LogoFooter.png'
 import {BrowserRouter as Router} from 'react-router-dom'

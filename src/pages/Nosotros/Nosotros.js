@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { Divider, Container, Grid, GridRow, Menu } from 'semantic-ui-react'
+import { Divider, Container, Grid, GridRow} from 'semantic-ui-react'
 import HeroNosotros from './HeroNosotros'
 import PropTypes from 'prop-types';
 
