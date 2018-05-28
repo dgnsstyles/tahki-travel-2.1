@@ -13,8 +13,6 @@ class HeroDestinos extends Component {
         }
     }
 
-
-
     render(props) {
 
         return (
