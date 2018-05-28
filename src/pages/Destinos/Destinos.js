@@ -15,6 +15,7 @@ class destinos extends Component {
         }
     }
 
+
     async componentDidMount() {
         axios.get('http://localhost:3001/v1/destinations')
             .then(res => {
@@ -25,7 +26,7 @@ class destinos extends Component {
         var self = this;
 
         var inter = setInterval( function () {
-            if(self.props.data !== undefined && self.props.data !== null && self.props.data.length !== 0){
+            if(self.state.destination !== undefined && self.state.destination !== null && self.state.destination.length !== 0){
                 clearInterval(inter);
                 var obj = self.filtrar();
                 var inter3 = setInterval(function () {
@@ -48,6 +49,13 @@ class destinos extends Component {
             }
 
         }, 1000)
+    }
+    filtrar(){
+        return this.state.destination.filter(e =>{
+            if(Number(e.commercial_id) === Number(this.props.param.id)){
+                return e;
+            }
+        })
     }
     filtrar(){
         return this.props.data.filter(e =>{
