@@ -1,8 +1,6 @@
 import React from 'react';
 import {Switch} from 'react-router-dom'
 import Route from 'react-router-dom/Route'
-import { Image } from 'semantic-ui-react'
-import LogoNav from '../assets/Images/LogoNav.png';
 import Destinos from "../pages/Destinos/Destinos";
 import Inicio from "../pages/Inicio/Inicio";
 import Nosotros from "../pages/Nosotros/Nosotros";

@@ -27,7 +27,7 @@ class Paquetes extends Component {
     render(props) {
         return (
             <div>
-                <HeroPaquetes data={this.state.tours}/>
+                <HeroPaquetes data={this.state.tours}  />
                 <br/>
                 <Divider horizontal><h2>Tours</h2></Divider>
                 <br/>

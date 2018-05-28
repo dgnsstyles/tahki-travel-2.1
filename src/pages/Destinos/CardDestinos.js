@@ -8,6 +8,7 @@ import Lima2 from '../../assets/Images/Lima2.jpg'
 class CardDestinos extends Component {
     constructor(props){
         super(props);
+        console.log(props)
         this.state = {
             destinos: ''
         }
@@ -22,6 +23,7 @@ class CardDestinos extends Component {
     }
     render(props) {
         return (
+
             <div>
                 <Container>
                     <Grid columns={3} doubling>
@@ -86,7 +88,4 @@ class CardDestinos extends Component {
         );
     }
 }
-
-CardDestinos.propTypes = {};
-
 export default CardDestinos;

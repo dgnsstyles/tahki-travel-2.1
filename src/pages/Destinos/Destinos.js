@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import axios from 'axios'
 import CardDestinos from './CardDestinos'
 import HeroDestinos from './HeroDestinos'
 import { Divider, Container } from 'semantic-ui-react'
@@ -15,13 +16,11 @@ class destinos extends Component {
     }
 
     async componentDidMount() {
-        const res = await fetch(`http://localhost:3001/v1/destinations`);
-        const data = await res.json();
-        this.setState({
-            destinos: [],
-            data: null
-
-        })
+        axios.get('http://localhost:3001/v1/destinations')
+            .then(res => {
+                this.setState({ destination: res.data });
+                 console.log(this.state)
+            })
         var d = []
         var self = this;
 
@@ -52,7 +51,7 @@ class destinos extends Component {
     }
     filtrar(){
         return this.props.data.filter(e =>{
-            if(Number(e._id) === Number(this.props.param.id)){
+            if(Number(e.commercial_id) === Number(this.props.param.id)){
                 return e;
             }
         })

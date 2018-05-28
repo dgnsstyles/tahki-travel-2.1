@@ -2,7 +2,7 @@ import React from 'react';
 import MachuPichu from '../../../assets/Images/maxresdefault.png'
 import TorresDelPaine from '../../../assets/Images/Torres_del_paine.jpg'
 import Lima from '../../../assets/Images/Lima.png'
-import { Grid, Segment, Container, Image, Reveal, Responsive } from 'semantic-ui-react'
+import { Grid, Container, Image, Reveal, Responsive } from 'semantic-ui-react'
 
 
 const Streched = () => {

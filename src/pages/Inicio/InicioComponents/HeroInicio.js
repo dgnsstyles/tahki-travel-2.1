@@ -1,5 +1,5 @@
 import React from 'react';
-import {Container, Header, Responsive,Button} from 'semantic-ui-react'
+import {Container, Header, Responsive, Button} from 'semantic-ui-react'
 import MachuPichu from '../../../assets/Images/machu-picchu.jpg'
 
 import PropTypes from 'prop-types';
