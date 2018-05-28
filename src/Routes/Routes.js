@@ -15,7 +15,6 @@ const Routes = () => {
             <Route path="/Destinos" component={Destinos}></Route>
             <Route path="/Nosotros" component={Nosotros}></Route>
             <Route path="/Contacto" component={Contacto}></Route>
-            <Route path="/Paquetes" component={Paquetes}></Route>
             <Route path="/Paquetes/:id" component={Paquetes}></Route>
         </div>
     );
