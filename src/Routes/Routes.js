@@ -1,4 +1,5 @@
 import React from 'react';
+import {Switch} from 'react-router-dom'
 import Route from 'react-router-dom/Route'
 import { Image } from 'semantic-ui-react'
 import LogoNav from '../assets/Images/LogoNav.png';
@@ -11,11 +12,14 @@ import Contacto from "../pages/Contacto/Contacto";
 const Routes = () => {
     return (
         <div>
-            <Route path="/"  exact component={Inicio}></Route>
-            <Route path="/Destinos" component={Destinos}></Route>
-            <Route path="/Nosotros" component={Nosotros}></Route>
-            <Route path="/Contacto" component={Contacto}></Route>
-            <Route path="/Paquetes/:id" component={Paquetes}></Route>
+            <Switch>
+                <Route path="/"  exact={true} component={Inicio}></Route>
+                <Route path="/Destinos" exact={true} component={Destinos}></Route>
+                <Route path="/Destinos/:id" component={Destinos}></Route>
+                <Route path="/Nosotros" exact={true} component={Nosotros}></Route>
+                <Route path="/Contacto" component={Contacto}></Route>
+                <Route path="/Paquetes/:id" component={Paquetes}></Route>
+            </Switch>
         </div>
     );
 };

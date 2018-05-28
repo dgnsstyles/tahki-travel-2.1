@@ -24,9 +24,11 @@ class DesktopContainer extends Component {
                 <Visibility once={false} onBottomPassed={this.showFixedMenu} onBottomPassedReverse={this.hideFixedMenu}>
                     <Menu
                         pointing={!fixed}
+
                         borderless
+
                         fixed={fixed ? 'top' : null}
-                        size='massive'
+                        size="massive"
                         color='black'
                         className="Navbar"
                     >

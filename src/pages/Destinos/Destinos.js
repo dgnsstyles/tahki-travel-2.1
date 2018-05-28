@@ -25,11 +25,11 @@ class destinos extends Component {
         return (
             <div>
 
-                <HeroDestinos props={this.state.destinos.map}/>
+                <HeroDestinos props={this.state.destinos}/>
                 <h1 style={{ textAlign: 'center', fontSize: '35px'}}>Destinos</h1>
                 <Divider/>
                 <Container>
-                    <CardDestinos/>
+                    <CardDestinos props={this.state.destinos} params={this.props.match.params}/>
                     <br/>
                 </Container>
 

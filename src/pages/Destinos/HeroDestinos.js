@@ -1,12 +1,24 @@
 import React, {Component} from 'react';
 import {Header} from 'semantic-ui-react'
 import MachuPichu from '../../assets/Images/machu-picchu.jpg'
-import PropTypes from 'prop-types';
+
 import './HeroDestinos.scss'
 
 class HeroDestinos extends Component {
+    constructor(props){
+        super(props)
 
-    render() {
+        this.state = {
+            destinos: []
+        }
+    }
+
+    componentDidMount(){
+
+    }
+
+    render(props) {
+
         return (
             <div className="Header"
             style={{
@@ -25,7 +37,7 @@ class HeroDestinos extends Component {
                         color: 'white',
                         fontSize: '130px',
                         paddingTop: '1em'
-                    }}>Cuzco</h1>
+                    }}>{this.state.destinos.title}</h1>
                 </Header>
 
             </div>
@@ -33,8 +45,6 @@ class HeroDestinos extends Component {
     }
 }
 
-
-HeroDestinos.propTypes = {};
 
 export default HeroDestinos;
 

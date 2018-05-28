@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
 import {Grid, Container, Card} from 'semantic-ui-react'
+import Link from 'react-router-dom/Link'
 import Arequipa from '../../assets/Images/Arequipa.png'
 import Llama from '../../assets/Images/Llama.png'
 import Peru from '../../assets/Images/Peru.png'
+import ParacasBoogie from '../../assets/Images/ParacasBoogie.jpg'
+import Lima2 from '../../assets/Images/Lima2.jpg'
 
 class CardDestinos extends Component {
     constructor(props){
@@ -26,19 +29,19 @@ class CardDestinos extends Component {
                     <Grid columns={3} doubling>
                         <Grid.Column>
 
-                            <Card  style={{backgroundImage:`url("${Arequipa}")`,
+                            <Card  style={{backgroundImage:`url("${ParacasBoogie}")`,
                                 backgroundSize:'cover', display:'block'}}>
                                 <Card.Content style={{ paddingTop:'200px'}}>
                                     <Card.Header  style={{ color:'white', fontSize:'25px'}}>
-                                        Arequipa
+                                        {this.state.destinos.title}
                                         <div style={{height:'1.5px', backgroundColor:'white'}}></div>
                                     </Card.Header>
 
                                     <Card.Meta style={{color:'white'}} >
-                                        <span className="date">21 de Febrero</span>
+                                        <span className="date"></span>
                                     </Card.Meta>
                                     <Card.Description  style={{color:'white', fontWeight:'bold'}} >
-                                        14 dias en Europa maravillosa, hoteles y translados incluidos
+                                        <Link to='/Destinos/:id'> {this.state.destinos.description} </Link>
                                     </Card.Description>
                                 </Card.Content>
                             </Card>
@@ -48,33 +51,33 @@ class CardDestinos extends Component {
                                 backgroundSize:'cover', display:'block'}}>
                                 <Card.Content style={{ paddingTop:'200px'}}>
                                     <Card.Header  style={{ color:'white', fontSize:'25px'}}>
-                                        Iquitos
+                                        {this.state.destinos.title}
                                         <div style={{height:'1.5px', backgroundColor:'white'}}></div>
                                     </Card.Header>
 
                                     <Card.Meta style={{color:'white'}} >
-                                        <span className="date">21 de Febrero</span>
+                                        <span className="date"></span>
                                     </Card.Meta>
                                     <Card.Description  style={{color:'white', fontWeight:'bold'}} >
-                                        14 dias en Europa maravillosa, hoteles y translados incluidos
+                                        {this.state.destinos.description}
                                     </Card.Description>
                                 </Card.Content>
                             </Card>
                         </Grid.Column>
                         <Grid.Column>
-                            <Card  style={{backgroundImage:`url("${Peru}")`,
+                            <Card  style={{backgroundImage:`url("${Lima2}")`,
                                 backgroundSize:'cover', display:'block'}}>
                                 <Card.Content style={{ paddingTop:'200px'}}>
                                     <Card.Header  style={{ color:'white', fontSize:'25px'}}>
-                                        Lima
+                                        {this.state.destinos.title}
                                         <div style={{height:'1.5px', backgroundColor:'white'}}></div>
                                     </Card.Header>
 
                                     <Card.Meta style={{color:'white'}} >
-                                        <span className="date">21 de Febrero</span>
+                                        <span className="date"></span>
                                     </Card.Meta>
                                     <Card.Description  style={{color:'white', fontWeight:'bold'}} >
-                                        14 dias en Europa maravillosa, hoteles y translados incluidos
+                                        {this.state.destinos.description}
                                     </Card.Description>
                                 </Card.Content>
                             </Card>

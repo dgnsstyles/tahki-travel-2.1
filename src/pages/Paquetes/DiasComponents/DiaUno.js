@@ -21,7 +21,6 @@ class DiaUno extends Component {
 
 
     render(props) {
-         console.log(this.state)
         return (
                 <div>
                     <Header size='huge' style={{ fontSize:'60px', fontFamily:'Raleway'}}>{this.state.tours.title}</Header>

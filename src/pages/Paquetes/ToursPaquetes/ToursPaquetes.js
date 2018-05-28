@@ -19,7 +19,7 @@ class ToursPaquetes extends Component {
         var self = this;
 
         var inter = setInterval( function () {
-            if(self.props.data != undefined && self.props.data !=null && self.props.data.length !=0){
+            if(self.props.data !== undefined && self.props.data !== null && self.props.data.length !== 0){
                 clearInterval(inter);
                 var obj = self.filtrar();
                 var inter2 =  setInterval(function(){

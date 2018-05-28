@@ -2,6 +2,7 @@ import React from 'react';
 import {Grid, Container, Card} from 'semantic-ui-react'
 import Arequipa from '../../../assets/Images/Arequipa.png'
 import Peru from '../../../assets/Images/Peru.png'
+import axios from "axios/index";
 
 
 class CardPaquetes extends React.Component {
@@ -12,11 +13,9 @@ class CardPaquetes extends React.Component {
         }
     }
     async componentDidMount() {
-        const res = await fetch('http://localhost:3001/v1/destinations');
-        const data = await res.json();
-        this.setState({
-            destinos: data[0]
-        })
+        const { data } = await axios.get('http://localhost:3001/v1/destinations');
+        this.setState({ destinos: data});
+
     }
     render() {
         return (
